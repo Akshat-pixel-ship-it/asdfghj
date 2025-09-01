@@ -7,25 +7,25 @@ const Hero = () => {
       {/* 3D Golden Shapes */}
       <div className="absolute inset-0">
         {/* Large floating cube */}
-        <div className="absolute top-20 left-20 w-32 h-32 golden-cube animate-float-slow">
+        <div className="absolute top-10 left-10 w-32 h-32 golden-cube animate-float-slow">
           <div className="w-full h-full bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-600 rounded-lg shadow-2xl shadow-yellow-500/50 transform rotate-45 hover:rotate-12 transition-transform duration-1000"></div>
           <div className="absolute inset-0 bg-yellow-400 blur-xl opacity-30 animate-pulse"></div>
         </div>
 
         {/* Medium sphere */}
-        <div className="absolute top-1/4 right-20 w-24 h-24 golden-sphere animate-float-medium">
+        <div className="absolute top-10 right-10 w-24 h-24 golden-sphere animate-float-medium">
           <div className="w-full h-full bg-gradient-to-br from-yellow-300 via-yellow-500 to-yellow-700 rounded-full shadow-2xl shadow-yellow-500/40 transform hover:scale-110 transition-transform duration-500"></div>
           <div className="absolute inset-0 bg-yellow-400 blur-lg opacity-25 animate-ping"></div>
         </div>
 
         {/* Small diamond */}
-        <div className="absolute bottom-1/3 left-1/4 w-16 h-16 golden-diamond animate-float-fast">
+        <div className="absolute bottom-10 left-10 w-16 h-16 golden-diamond animate-float-fast">
           <div className="w-full h-full bg-gradient-to-t from-yellow-500 to-yellow-300 transform rotate-45 shadow-xl shadow-yellow-500/30 hover:rotate-90 transition-transform duration-700"></div>
           <div className="absolute inset-0 bg-yellow-300 blur-md opacity-20 animate-pulse"></div>
         </div>
 
         {/* Large background sphere */}
-        <div className="absolute bottom-20 right-1/4 w-40 h-40 golden-bg-sphere animate-float-slow">
+        <div className="absolute bottom-10 right-10 w-40 h-40 golden-bg-sphere animate-float-slow">
           <div className="w-full h-full bg-gradient-radial from-yellow-400/20 via-yellow-500/10 to-transparent rounded-full blur-3xl"></div>
         </div>
       </div>
